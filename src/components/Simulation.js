@@ -3,7 +3,9 @@ import './Simulation.css';
 function Simulation() {
   return (
     <div className='Simulation'>
+        <img className='radar' src='./images/bg.JPG' alt=''></img>
         <div className='container'>
+           
             <h2 className='title'>Signal Simulation</h2>
             <div className='model'>
                 <div className='sub-title'>
@@ -28,7 +30,7 @@ function Simulation() {
                         </div>
                         <img src='images/birdmodel.gif' alt=''></img>
                     </div>
-                 </div>
+                 
             </div>
 
             <div className='model'>
@@ -42,7 +44,8 @@ function Simulation() {
             </div>
             
             </div>
-         </div>   
+         </div> 
+         </div>  
     </div>
   )
 }

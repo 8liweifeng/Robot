@@ -6,27 +6,42 @@ function About() {
   return (
     <div className='About'>
         <div className='about-container'>
-            <img className='radar' src='images/radar.png' alt=''></img> 
+            <img className='radar' src='images/bb8.png' alt=''></img> 
             <div className='info'>
             
-                <h2 className='title'>Introduction</h2>
-                <p className='intro'>This is a radar-based technology that detects and recognizes birds, reducing the risk of bird strikes and potential threats
-from bird-like aircraft, to ensure the safety of airplanes</p>
+                <h2 className='title'>About</h2>
+                <p className='intro'>This is a ball-shaped enclosed robot with good sealability, high moving flexibility, and strong stability, suitable for future
+exploration of outer planets and detection of hazardous environments</p>
                 <div className='detail'>
-                      <p>Recently, bird strikes have occurred frequently, and bird-like aircraft such as bionic
-flapping wing planes pose a potential threat to humans' security. Radar has the
-properties of radio detection and distance measurement. Using radar to identify bird targets
-can reduce the occurrence of events above.<br></br><br></br>
-In this project, the bird's dynamic flapping wing model which is suitable for most kinds
-of birds could be established through the bird's structure and flight characteristics. And
-according to this dynamic model, the radar cross section (RCS) of birds which would be
-used to establish the corresponding radar echo model could be calculated roughly. Using
-time-frequency analysis, such as Short-Time Fourier Transform (STFT), to process the
-echo signals, the micro-Doppler features of birds could be extracted. And Alternating
-Direction Method of Multipliers (ADMM) could be used to enhance the micro-Doppler
-features to improve the problems that the features are unextractable.
+                <div className='photo-con'>
+                    <div className='photo1'>
+                        
+                        <div className='rel'>
+                            <img src='images/model.png' alt='' className='pro'></img>
+                        </div>
+                        
+                       <p>
+                        Our robot is inspired by BB-8, a droid character in the film 
+                        Star Wars. Compared with the traditional robot, the spherical robot
+                         has a fully enclosed spherical shell, which puts the control system,
+                        power system, and communication system totally inside the spherical
+                         shell. Because of the shell, the impact force of the robot when rolling is effectively 
+                         buffered. And we change the position of the robot's center of mass to
+                         solve the rollover problem (This idea is inspired by the tumbler).
+                        <br></br><br></br>
+                         For the hardware circuit part, we use MCU, receiver, encoder, A4950 motor driver module
+                         , and gyroscope. In terms of communications, we utilized the Zigbee wireless 
+                         communication module and DL_LN32 ad hoc network wireless
+                          communication module to establish reliable communication between computers and each robot.
 
-                      </p>             
+                         
+                        </p>
+                        
+                            
+                        
+                    </div>    
+                </div>
+                                 
                 </div>
             </div>
         </div>

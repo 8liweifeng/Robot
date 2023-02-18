@@ -1,6 +1,6 @@
 .recognization {
     padding: 4rem;
-    background: #fff;
+    background-image: url("/images/bg.JPG");
 
   }
 
@@ -12,7 +12,7 @@
   }
 
   .title {
-    margin-bottom: 0.7rem;
+    margin-bottom: 2.5rem;
     font-size: 2.5rem;
     font-weight: 1000;
     text-align: center;
@@ -29,9 +29,28 @@
     transition: 0.3s;
   }
 
-
-  .comment {
+  .recognization p {
     padding: 1rem;
-    width: 65%;
     text-align: justify;
+    color: #fff;
+    width: 40%;
   }
+  
+  .recognization img{
+    width: 30%;
+    margin: 1rem;
+  }
+
+  .recognization .one {
+    transform: translate(-10%,-140%);
+  }
+  .recognization .two {
+    transform: translate(150%,-450%);
+  }
+
+  .recognization .three {
+    transform: translate(160%,-290%);
+  }
+
+
+ 

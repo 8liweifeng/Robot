@@ -8,11 +8,13 @@ import Recognization from '../Recognization';
 import Simulation from '../Simulation';
 import Process from '../Process';
 import Results from '../Results';
+import Video from '../Video';
 function Home () {
     return (
         <>
             <HeroSection />
             <About />
+            <Video />
             <Recognization />
             <Simulation />
             <Process />

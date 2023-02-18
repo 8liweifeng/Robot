@@ -1,8 +1,10 @@
 .Simulation {
     padding: 4rem;
-    background: #fff;
-
+    background-image: url("/images/bg.JPG");
+    
   }
+
+  
 
   .sub-title {
     display: flex;

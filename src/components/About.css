@@ -1,6 +1,6 @@
   .About {
     padding: 4rem;
-    background: #fff;
+    background-image: url("/images/bg.JPG");
     
   }
 
@@ -10,16 +10,19 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    
+    color: #fff;
 }
 .title {
     margin-bottom: 0.6rem;
     font-size: 2.5rem;
     font-weight: 1000;
     text-align: center;
-   
+    color: #fff;
+    z-index: 2;
 }
-
+.title:hover {
+  font-size: 2.7rem;
+}
 
 
 .intro {
@@ -28,29 +31,45 @@
     font-weight: 1000;
     text-align: center;
     position: relative;
+    color: #fff;
 }
  
   .about-container {
+    
     margin: 0rem 5rem;
   }
 
   .detail {
-    width: 75%;
+    width: 80%;
     align-items: center;
     justify-items: center;
-    border: solid 4px #242424;
+    border: solid 4px #05dafb;
     border-radius: 15px;
     margin-top: 2rem;
-    text-align: justify;
+    color: #fff;
   }
   .detail p {
     padding: 1rem;
+    color: #fff;
+    text-align:justify;
   }
+
   .radar {
     position: absolute;
-    width: 100%;
+    width: 80%;
     opacity: 0.3;
-    left: -1%;
-    top: 90%;
+    left: 10%;
+    top: 100%;
+   
     
+  }
+
+  .About .photo1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .About .photo1 .pro {
+    z-index: 99;
   }

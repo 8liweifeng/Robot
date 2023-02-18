@@ -1,0 +1,28 @@
+.Video {
+    padding: 4rem;
+    background-image: url("/images/bg.JPG");
+    
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  .Video video {
+    border-radius: 10px;
+    border: solid 6px #fff;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 20px;
+    z-index: 99;
+  }
+
+  .note {
+    color: #fff;
+    font-size: 1fr;
+    
+  }

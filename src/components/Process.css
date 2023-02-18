@@ -1,17 +1,18 @@
 .Process {
     padding: 4rem;
-    background: #fff;
-
+    background-image: url("/images/bg.JPG");
   }
 
 .Process .info .title {
   font-size: 1.2rem;
+  color: #fff;
 }
 
 .Process .intro{
   font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 3rem;
+  color: #fff;
 }
 
 .Process .detail {
@@ -20,7 +21,7 @@
   width: 60%;
   display: grid;
   grid-template-rows: 1fr 1fr;
-
+  color: #fff;
 }
 
 .Process .function1 {

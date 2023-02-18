@@ -6,9 +6,9 @@ import { Button } from './Button';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src='https://www.youtube.com/watch?v=dHDNS8TFW8o' autoPlay loop muted />
-        <h1>Bird Flight Dynamic Simulation & Micro-Doppler Feature Enhancement</h1>
-        <p>Liwei Feng</p>
+        <video src='./videos/BB8.mp4' autoPlay loop muted />
+        <h1>Spherical Robot<br></br> Students Innovation and Entrepreneurship Program</h1>
+        <p>Shengzhi Jin, Liwei Feng</p>
         <div className='hero-btns'>
             <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
                 Know More
