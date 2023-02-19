@@ -44,18 +44,18 @@ function NavBar() {
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to="/Simulation" className='nav-links' onClick={closeMobileMenu}>
-                    Simulation
+                    <Link to="/Hardware" className='nav-links' onClick={closeMobileMenu}>
+                    Hardware
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to="/Process" className='nav-links' onClick={closeMobileMenu}>
-                    Processing
+                    <Link to="/Structure" className='nav-links' onClick={closeMobileMenu}>
+                    Structure
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to="/Results" className='nav-links' onClick={closeMobileMenu}>
-                    Achievements
+                    <Link to="/Algorithm" className='nav-links' onClick={closeMobileMenu}>
+                    Algorithm
                     </Link>
                   </li>
                   {/* <li className='nav-item'>

@@ -1,7 +1,8 @@
 .recognization {
     padding: 4rem;
-    background-image: url("/images/bg.JPG");
-
+    background-image: url("bg.JPG");
+    overflow: hidden;
+    width: 100vw;
   }
 
   .process {
@@ -9,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    position: relative;
   }
 
   .title {
@@ -42,15 +44,65 @@
   }
 
   .recognization .one {
-    transform: translate(-10%,-140%);
+    transform: translate(-5%,-80%);
+    position: absolute;
   }
   .recognization .two {
-    transform: translate(150%,-450%);
+    transform: translate(150%,-250%);
+    position: absolute;
   }
 
   .recognization .three {
-    transform: translate(160%,-290%);
+    transform: translate(150%,-60%);
+    position: absolute;
   }
 
+
+  @media screen and (max-width: 1320px) {
+    .recognization p {
+      
+      font-size: 0.7rem;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    
+    .recognization .two {
+      transform: translate(125%,-210%);
+      position: absolute;
+    }
+  
+    .recognization .three {
+      transform: translate(125%,-60%);
+      position: absolute;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .recognization p {
+      font-size: 0.6rem;
+    }
+  }
+  @media screen and (max-width: 740px) {
+    .recognization .pro {
+      display: none;
+    }
+    .recognization .one {
+      transform: translate(50%,0%); 
+      position: relative;
+      width: 50%;
+    }
+    .recognization .two {
+      transform: translate(50%,0%);
+      position: relative;
+      width: 50%;
+    }
+  
+    .recognization .three {
+      transform: translate(50%,0%);
+      position: relative;
+      width: 50%;
+    }
+  }
 
  

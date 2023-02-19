@@ -1,6 +1,6 @@
 .Process {
     padding: 4rem;
-    background-image: url("/images/bg.JPG");
+    background-image: url("bg.JPG");
   }
 
 .Process .info .title {

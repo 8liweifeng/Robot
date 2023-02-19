@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
         <section className='footer-subscription'>
             <p className='footer-subscription-heading'>
-                Welcome to contact me, and know more information
+                Welcome to contact us, and know more information
             </p>
             
 
@@ -27,7 +27,7 @@ function Footer() {
         <div className='footer-links'>
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
-                    <h2>About Me</h2>
+                    <h2>About US</h2>
                     <Link to='/sign-up'>Email</Link>
                     <Link to='/'>Address</Link>
                     <Link to='/'>School</Link>
@@ -53,7 +53,7 @@ function Footer() {
             <div className='social-media-wrap'>
                 <div className='footer-logo'>
                     <Link to="/" className='social-logo'>
-                    CAUC <i class="fa-solid fa-plane-up"></i>
+                    ROBOT <i class="fa-solid fa-robot"></i>
                     </Link>
                 </div>
                 <small className='website-rights'>Liwei &copy; 2023</small>

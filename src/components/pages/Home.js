@@ -9,6 +9,10 @@ import Simulation from '../Simulation';
 import Process from '../Process';
 import Results from '../Results';
 import Video from '../Video';
+import Hardware from '../Hardware';
+import Structure from '../Structure';
+import Algorithm from '../Algorithm';
+import Tree from '../Tree';
 function Home () {
     return (
         <>
@@ -16,9 +20,12 @@ function Home () {
             <About />
             <Video />
             <Recognization />
-            <Simulation />
+            <Hardware />
+            <Structure />
+            <Algorithm />
+            {/* <Simulation />
             <Process />
-            <Results />
+            <Results /> */}
             <Footer />
         </>
     );

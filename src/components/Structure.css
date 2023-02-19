@@ -1,0 +1,12 @@
+.Structure {
+    padding: 4rem;
+    background-image: url("bg.JPG");
+    padding-top: 8rem;
+    width: 100vw;
+  }
+
+  .Structure .photo1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }

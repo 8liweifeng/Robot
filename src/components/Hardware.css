@@ -1,0 +1,47 @@
+.Hardware {
+    padding: 4rem;
+    background-image: url("bg.JPG");
+    padding-top: 8rem;
+    width: 100vw;
+  }
+  .Hardware .detail{
+    margin-top: 0rem;
+  }
+  .Hardware .photo1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+ 
+  .Hardware .detail {
+    width: 100%;
+  }
+
+  .Hardware img {
+    width: 90%;
+  }
+
+  .Hardware p {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 720px) {
+    .Hardware p {
+      font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .Hardware p {
+    font-size: 0.5rem;
+  }
+
+  .Hardware img {
+    width: 70%;
+  }
+
+  .Hardware .detail{
+    border: none;
+  }
+}
